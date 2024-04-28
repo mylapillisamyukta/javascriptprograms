@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var num1=10;
+            {
+                num1=200;
+            }
+            console.log(num1);
+        </script>
+        <script>
+            var num1 =10;
+            {
+                var num1 =200;
+            }
+            console.log(num1);
+            let num2=20;
+            {
+                let num2=300;
+            }
+            console.log(num2);
+        </script>
+        <script>
+            var num1 =10;
+            {
+                var num1=200;
+            }
+            console.log(num1);
+        </script>
+        
+        <script>
+              let x =1000;
+             function test(){
+                let x=2000;
+                console.log(x);
+            }
+            test();
+            console.log(num1);
+        </script>
+        <script>
+            function demo(){
+                var x=600;
+                function func1(){
+                    console.log(x);
+                }
+                return func1;
+            }
+            var ans=demo();
+            console.log(ans);
+            ans();
+        </script>
+    </body>
+</html>

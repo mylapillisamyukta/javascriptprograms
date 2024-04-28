@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>javascript</div>
+        <sat>welcome to javascript</sat>
+        <div id="txt1" class="c1">javascript1</div>
+        <div id="txt2" class="c1">javascript2</div>
+        <div id="txt3" class="c1">javascript3</div>
+        <button id="btn1" onclick="a();">dosomething</button>
+        <script>
+          console.log("test1");
+          function a(){
+            var x=document.getElementsByClassName("c1");
+            for(var i=0;i<x.length;i++)
+            {
+                x[i].style.color="blue";
+                x[i].style.fontweight="BOLD";
+            }
+          }
+        </script>
+
+        
+        
+    </body>
+</html>
